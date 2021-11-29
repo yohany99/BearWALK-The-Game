@@ -5,6 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Escort
+  - LMetalGate
+  - RMetalGate
+  - Lock
+  - Solid Object
+  - Chest
+  - Vent
   layers:
   - Default
   - TransparentFX
@@ -12,11 +19,11 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Interactable
+  - Escort
+  - Solid Objects
+  - Enemy
+  - Player
   - 
   - 
   - 
@@ -44,6 +51,9 @@ TagManager:
     locked: 0
   - name: Background
     uniqueID: 2657640485
+    locked: 0
+  - name: Object
+    uniqueID: 2141577831
     locked: 0
   - name: Player
     uniqueID: 1504329111
